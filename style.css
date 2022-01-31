@@ -1,0 +1,164 @@
+/* ----- Reset default style ----- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------ EAD Plataforma ------- */
+
+body {        
+    background-position: center center no-repeat;
+    background-image: url(images/background/fundo-foguete.png);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+div {
+    background-color: #FFF;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    font-family: sans-serif;
+    display: flex;
+    padding: 24px;
+}
+div h1 {
+    padding-top: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #32bc9f;
+}
+.formulario {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.formulario input {
+    padding-left: 28px;
+    border-radius: 4px;
+    border: 1px solid #cdd1d8;
+    color: #676f79;
+}
+.formulario h2 {
+    font-weight: 600;
+    font-size: 9px;
+    position: relative;
+    padding: 14px;
+    right: 55px;
+    color: #676f79;
+}
+.field {
+    padding: 7px;
+    width: 222px;
+}
+.username {
+    padding: 7px;
+    width: 222px;
+}
+.eadsite {
+    border-left: 1px solid #cdd1d8;
+    position: relative;
+    bottom: 20px;
+    left: 72px;
+    padding-left: 2px;
+    color: #676f79;
+}
+.icones {
+    opacity: 36%;
+    position: relative;
+    width: 12px;
+    right: 114px;
+    top: 21px;
+}
+select {
+    border-radius: 4px;
+    padding-left: 24px;
+    border: 1px solid #cdd1d8;
+    height: 33px;
+    width: 263px;
+    color: #676f79;
+}
+p {
+    font-size: 12px;
+}
+.formulario a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #32bc9f;
+}
+.addcupom {
+    position: relative;
+    bottom: 24px;
+    width: 16px;
+    left: 116px;
+}
+.cupomok {
+    background-color: #a4e1d5;
+    flex-direction: row;
+    border-radius: 4px;
+    font-size: 11px;
+    display: none;
+    padding: 6px 28px 6px 4px;
+    border: 1px solid #32bc9f;
+    margin: 12px;
+    color: #676f79;
+}
+.cupomok a {
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+}
+.cupomok h3 strong {
+    font-weight: 600;
+}
+.criar {
+    background-color: #fd673d;
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 12px 32px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
